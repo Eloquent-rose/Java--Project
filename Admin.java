@@ -17,6 +17,7 @@ public class Admin
         try
         {
             //Class.forName("com.mysql.jdbc.Driver");
+		//this is the part where SQL is attached
             String url = "jdbc:mysql://127.0.0.1/online_quiz?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
 		    String user = "root";
 		    String pass = "";
