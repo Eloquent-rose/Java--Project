@@ -1,3 +1,4 @@
+// include import files
 import java.sql.*;
 import java.lang.*;
 import java.util.*;
@@ -169,6 +170,7 @@ public class Admin
                         System.out.println();
                         return true;
                     }
+			// display "Retry" in case of wrong password.
                     else
                     {
                         System.out.println("Wrong Password");  
@@ -197,6 +199,7 @@ public class Admin
 
     public void Insert(Statement stmt)
     {
+	 // takes question from the user
         Admin add = new Admin();
         Scanner sc = new Scanner(System.in);
         StringBuffer sb = new StringBuffer();
